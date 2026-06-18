@@ -1,0 +1,20 @@
+/* General */
+body { font-family: Arial, sans-serif; }
+
+/* Header */
+.header { background: #2d7be5; color: white; text-align: center; padding: 25px; }
+
+/* Navbar */
+.navbar { background: #222; color: white; padding: 10px 20px; }
+.navbar a { color: white; text-decoration: none; margin-left: 15px; }
+
+/* Content */
+.content-area { background: #eee; padding: 40px; }
+
+/* Vertical line on desktop only */
+@media (min-width: 768px) {
+    .border-start-custom { border-left: 3px solid black; }
+}
+
+/* Footer */
+.footer { background: #333; color: white; text-align: center; padding: 15px; }
